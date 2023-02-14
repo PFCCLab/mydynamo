@@ -4,7 +4,7 @@ from typing import (Any,Callable)
 
 # This is a proof of concept for a paddle IR. It is not intended to be a complete
 # Lots of the codes are from torch.fx.
-# Since Paddle doesnot have protocol like __torch__function__, 
+# Since Paddle doesnot have protocol like __torch_function__, 
 # I haven to monkey patch paddle.add, paddle.nn.functional.relu
 # to create a proxy for them.   
 
